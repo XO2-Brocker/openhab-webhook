@@ -3,14 +3,15 @@
 var bodyParser  = require("body-parser"),
 express         = require("express"),
 app             = express(),
-settings        = require("app-settings"),
+config          = require('config.json')('./settings.json'),
+
 request         = require('request');
 
 // app config
 app.use(bodyParser.urlencoded({extended: true}));
-var openhabHost = settings.OpenHABserver.host;
-if(settings.OpenHABserver.host == "localhost") openhabHost = "http://localhost";
-const serverString  = openhabHost + ":" + settings.OpenHABserver.port;
+var openhabHost = config.OpenHABserver.host;
+if(config.OpenHABserver.host == "localhost") openhabHost = "http://localhost";
+const serverString  = openhabHost + ":" + config.OpenHABserver.port;
 const restString    = serverString + "/rest/items/";
 
 // test connection to OpenHAB
@@ -83,6 +84,6 @@ app.get("/", function(req, res){
 });
 
 // listener
-app.listen(settings.webhookListener.port, function(){
-    console.log("Webhook listener started on port " + settings.webhookListener.port);
+app.listen(config.webhookListener.port, function(){
+    console.log("Webhook listener started on port " + config.webhookListener.port);
 });
