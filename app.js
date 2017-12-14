@@ -6,7 +6,9 @@ request         = require('request');
 
 // app config
 app.use(bodyParser.urlencoded({extended: true}));
-const serverString  = settings.OpenHABserver.host + ":" + settings.OpenHABserver.port;
+var openhabHost = settings.OpenHABserver.host;
+if(settings.OpenHABserver.host == "localhost") openhabHost = "http://localhost";
+const serverString  = openhabHost + ":" + settings.OpenHABserver.port;
 const restString    = serverString + "/rest/items/";
 
 // test connection to OpenHAB
