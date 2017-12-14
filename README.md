@@ -41,8 +41,8 @@ Run openhab-webhook in terminal:
 ```
 openhab-webhook
 ```
-It should print out what port the webhook listener is running on, and the OpenHAB connection status.
-You should be able to visit *serverip:8000* from a browser.
+It should print out what port the webhook listener is running on, and the OpenHAB connection status.<br>
+You should be able to visit *serverip:8000* from a browser.<br>
 (to quit, hit *Ctrl + C*)
 
 ### Locative (iOS app) configuration
@@ -87,4 +87,4 @@ sudo pm2 startup
 The PM2 startup script that starts your Node applications, (called 'pm2-init.sh.') lives in the 'etc/init.d/' directory. It does not specically start openhab-webhook. Instead, it starts the programs that were running under PM2 the last time the server shutdown.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
