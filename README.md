@@ -41,8 +41,8 @@ Run openhab-webhook in terminal:
 ```
 openhab-webhook
 ```
-It should print out what port the webhook listener is running on, and the OpenHAB connection status.
-You should be able to visit *serverip:8000* from a browser.
+It should print out what port the webhook listener is running on, and the OpenHAB connection status.<br>
+You should be able to visit *serverip:8000* from a browser.<br>
 (to quit, hit *Ctrl + C*)
 
 ### Locative (iOS app) configuration
