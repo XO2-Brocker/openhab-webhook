@@ -1,0 +1,10 @@
+{
+    "OpenHABserver": {
+        "host": "localhost",
+        "port": "8080"
+    },
+    
+    "webhookListener": {
+        "port": "8000"
+    }
+}
