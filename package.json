@@ -1,6 +1,6 @@
 {
   "name": "openhab-webhook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A nodejs webhook server to use Locative & Geofency iOS apps to conrol OpenHAB presence items.\nWhen a geofence or iBeacon is entered/exited, ON/OFF command is sent.",
   "main": "app.js",
   "bin": "./app.js",
