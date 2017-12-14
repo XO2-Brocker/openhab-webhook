@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "A nodejs webhook server to use Locative & Geofency iOS apps to conrol OpenHAB presence items.\nWhen a geofence or iBeacon is entered/exited, ON/OFF command is sent.",
   "main": "app.js",
+  "bin": "./app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
