@@ -87,4 +87,4 @@ sudo pm2 startup
 The PM2 startup script that starts your Node applications, (called 'pm2-init.sh.') lives in the 'etc/init.d/' directory. It does not specically start openhab-webhook. Instead, it starts the programs that were running under PM2 the last time the server shutdown.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
