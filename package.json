@@ -15,8 +15,7 @@
   "bugs": {
     "url": "https://github.com/tapeboy7/openhab-webhook/issues"
   },
-  "homepage": "https://github.com/tapeboy7/openhab-webhook"
-  },
+  "homepage": "https://github.com/tapeboy7/openhab-webhook",
   "dependencies": {
     "app-settings": "^1.0.0",
     "body-parser": "^1.18.2",
