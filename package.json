@@ -1,13 +1,22 @@
 {
   "name": "openhab-webhook",
   "version": "1.0.0",
-  "description": "Receive webhook calls from Locative and Geofency",
+  "description": "A nodejs webhook server to use Locative & Geofency iOS apps to conrol OpenHAB presence items.\nWhen a geofence or iBeacon is entered/exited, ON/OFF command is sent.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tapeboy7/openhab-webhook.git"
+  },
   "author": "Benjamin",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tapeboy7/openhab-webhook/issues"
+  },
+  "homepage": "https://github.com/tapeboy7/openhab-webhook"
+  },
   "dependencies": {
     "app-settings": "^1.0.0",
     "body-parser": "^1.18.2",
