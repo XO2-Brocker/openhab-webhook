@@ -20,6 +20,11 @@ Install Node.js:
 sudo apt-get install nodejs
 ```
 
+The nodejs-legacy package installs a node symlink that is needed by many modules (including openhab-webhook) to build and run correctly.
+```
+sudo apt-get install nodejs-legacy
+```
+
 Install NPM (Node Package Manager):
 ```
 sudo apt-get install npm
