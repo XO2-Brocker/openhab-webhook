@@ -37,7 +37,7 @@ sudo npm install openhab-webhook -g
 ```
 
 By default, the OpenHAB server is set to localhost at port 8080, and the webhook listener listens on port 8000.<br>
-To change this, edit the *settings.json* file in */usr/local/lib/node/openhab-webhook*
+To change this, edit the *settings.json* file in */usr/local/lib/node_modules/openhab-webhook*
 
 
 ## Test it!
